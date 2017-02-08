@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name mod)(type KiCad)(uri "$(KIPRJMOD)\\mod.pretty")(options "")(descr ""))
+  (lib (name HDSP-523E)(type KiCad)(uri "$(KIPRJMOD)\\HDSP-523E.pretty")(options "")(descr ""))
 )
