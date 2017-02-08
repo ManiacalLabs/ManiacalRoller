@@ -1,4 +1,4 @@
-update=2/7/2017 9:30:00 PM
+update=2/7/2017 9:55:44 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -56,5 +56,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=lib/HDSP-523E
 [general]
 version=1
