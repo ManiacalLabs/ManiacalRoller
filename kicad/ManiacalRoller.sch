@@ -45,10 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA328P-P IC?
+L ATMEGA328P-P IC1
 U 1 1 589A7696
 P 2900 2300
-F 0 "IC?" H 2150 3550 50  0000 L BNN
+F 0 "IC1" H 2150 3550 50  0000 L BNN
 F 1 "ATMEGA328P-P" H 2650 900 50  0000 L BNN
 F 2 "mod:DIP28" H 2900 800 50  0000 C CIN
 F 3 "http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf" H 2900 2300 50  0001 C CNN
@@ -56,21 +56,21 @@ F 3 "http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-
 	1    0    0    -1  
 $EndComp
 $Comp
-L HDSP-523E SEG?
+L HDSP-523E SEG1
 U 1 1 589A891F
-P 9250 1350
-F 0 "SEG?" H 9250 1850 50  0000 C CNN
-F 1 "HDSP-523E" H 9250 900 50  0000 C CNN
-F 2 "HDSP-523E:HDSP-523E" H 9250 700 50  0000 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-3586EN" H 9250 800 50  0000 C CNN
-	1    9250 1350
+P 8750 1300
+F 0 "SEG1" H 8750 1800 50  0000 C CNN
+F 1 "HDSP-523E" H 8750 850 50  0000 C CNN
+F 2 "HDSP-523E:HDSP-523E" H 8750 650 50  0000 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-3586EN" H 8750 750 50  0000 C CNN
+	1    8750 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS148 U?
+L 74LS148 U1
 U 1 1 589F0924
 P 5150 3100
-F 0 "U?" H 5150 3100 50  0000 C CNN
+F 0 "U1" H 5150 3100 50  0000 C CNN
 F 1 "74LS148" H 5150 2600 50  0000 C CNN
 F 2 "Housings_DIP:DIP-16_W7.62mm_Socket_LongPads" H 5150 2400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc148.pdf" H 5150 2500 50  0001 C CNN
@@ -78,10 +78,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc148.pdf" H 5150 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
+L +BATT #PWR01
 U 1 1 589F0DE7
 P 1050 1000
-F 0 "#PWR?" H 1050 850 50  0001 C CNN
+F 0 "#PWR01" H 1050 850 50  0001 C CNN
 F 1 "+BATT" H 1050 1140 50  0000 C CNN
 F 2 "" H 1050 1000 50  0000 C CNN
 F 3 "" H 1050 1000 50  0000 C CNN
@@ -89,10 +89,10 @@ F 3 "" H 1050 1000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR02
 U 1 1 589F0E7C
 P 1050 1400
-F 0 "#PWR?" H 1050 1150 50  0001 C CNN
+F 0 "#PWR02" H 1050 1150 50  0001 C CNN
 F 1 "GND" H 1050 1250 50  0000 C CNN
 F 2 "" H 1050 1400 50  0000 C CNN
 F 3 "" H 1050 1400 50  0000 C CNN
@@ -108,10 +108,10 @@ VBATT
 Text GLabel 5450 3600 2    60   Input ~ 0
 GND
 $Comp
-L AVR-ISP-6 CON?
+L AVR-ISP-6 CON1
 U 1 1 589F07B2
 P 1300 2200
-F 0 "CON?" H 1195 2440 50  0000 C CNN
+F 0 "CON1" H 1195 2440 50  0000 C CNN
 F 1 "AVR-ISP-6" H 1035 1970 50  0000 L BNN
 F 2 "mod:ICSP_Simple" H 1300 1900 50  0000 C CNN
 F 3 "" H 1275 2200 50  0000 C CNN
@@ -119,10 +119,10 @@ F 3 "" H 1275 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW1
 U 1 1 589F0902
 P 6700 2050
-F 0 "SW?" H 6850 2160 50  0000 C CNN
+F 0 "SW1" H 6850 2160 50  0000 C CNN
 F 1 "BTN_coin" H 6700 1970 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 6700 2050 50  0001 C CNN
 F 3 "" H 6700 2050 50  0000 C CNN
@@ -130,76 +130,76 @@ F 3 "" H 6700 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery BT?
+L Battery BT1
 U 1 1 589F0AE8
 P 800 1250
-F 0 "BT?" H 650 1400 50  0000 L CNN
+F 0 "BT1" H 650 1400 50  0000 L CNN
 F 1 "Battery" H 700 1050 50  0000 L CNN
-F 2 "" V 800 1290 50  0000 C CNN
+F 2 "BattHolder:2xAABatteryHolder_24mm5x53mm" V 800 1290 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/209/EPD-200471-192655.pdf" V 550 800 50  0000 C CNN
 	1    800  1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW2
 U 1 1 589F115F
 P 6700 2350
-F 0 "SW?" H 6850 2460 50  0000 C CNN
-F 1 "BTN_d2" H 6700 2270 50  0000 C CNN
+F 0 "SW2" H 6850 2460 50  0000 C CNN
+F 1 "BTN_d4" H 6700 2270 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 6700 2350 50  0001 C CNN
 F 3 "" H 6700 2350 50  0000 C CNN
 	1    6700 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW3
 U 1 1 589F118E
 P 6700 2650
-F 0 "SW?" H 6850 2760 50  0000 C CNN
-F 1 "BTN_d4" H 6700 2570 50  0000 C CNN
+F 0 "SW3" H 6850 2760 50  0000 C CNN
+F 1 "BTN_d6" H 6700 2570 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 6700 2650 50  0001 C CNN
 F 3 "" H 6700 2650 50  0000 C CNN
 	1    6700 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW4
 U 1 1 589F11BE
 P 6700 2950
-F 0 "SW?" H 6850 3060 50  0000 C CNN
-F 1 "BTN_d6" H 6700 2870 50  0000 C CNN
+F 0 "SW4" H 6850 3060 50  0000 C CNN
+F 1 "BTN_d8" H 6700 2870 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 6700 2950 50  0001 C CNN
 F 3 "" H 6700 2950 50  0000 C CNN
 	1    6700 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW5
 U 1 1 589F11F3
 P 6700 3250
-F 0 "SW?" H 6850 3360 50  0000 C CNN
-F 1 "BTN_d8" H 6700 3170 50  0000 C CNN
+F 0 "SW5" H 6850 3360 50  0000 C CNN
+F 1 "BTN_d10" H 6700 3170 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 6700 3250 50  0001 C CNN
 F 3 "" H 6700 3250 50  0000 C CNN
 	1    6700 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW6
 U 1 1 589F1229
 P 6700 3550
-F 0 "SW?" H 6850 3660 50  0000 C CNN
-F 1 "BTN_d10" H 6700 3470 50  0000 C CNN
+F 0 "SW6" H 6850 3660 50  0000 C CNN
+F 1 "BTN_d12" H 6700 3470 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 6700 3550 50  0001 C CNN
 F 3 "" H 6700 3550 50  0000 C CNN
 	1    6700 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW7
 U 1 1 589F1260
 P 6700 3850
-F 0 "SW?" H 6850 3960 50  0000 C CNN
+F 0 "SW7" H 6850 3960 50  0000 C CNN
 F 1 "BTN_d20" H 6700 3770 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 6700 3850 50  0001 C CNN
 F 3 "" H 6700 3850 50  0000 C CNN
@@ -207,10 +207,10 @@ F 3 "" H 6700 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW?
+L SW_PUSH SW8
 U 1 1 589F12BF
 P 6700 4150
-F 0 "SW?" H 6850 4260 50  0000 C CNN
+F 0 "SW8" H 6850 4260 50  0000 C CNN
 F 1 "BTN_d100" H 6700 4070 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 6700 4150 50  0001 C CNN
 F 3 "" H 6700 4150 50  0000 C CNN
@@ -220,10 +220,10 @@ $EndComp
 Text GLabel 7050 4250 2    60   Input ~ 0
 GND
 $Comp
-L R R?
+L R R10
 U 1 1 58B41C05
 P 6250 1900
-F 0 "R?" V 6330 1900 50  0000 C CNN
+F 0 "R10" V 6330 1900 50  0000 C CNN
 F 1 "100k" V 6250 1900 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6180 1900 50  0001 C CNN
 F 3 "" H 6250 1900 50  0000 C CNN
@@ -231,10 +231,10 @@ F 3 "" H 6250 1900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R11
 U 1 1 58B41EC0
 P 6250 2200
-F 0 "R?" V 6330 2200 50  0000 C CNN
+F 0 "R11" V 6330 2200 50  0000 C CNN
 F 1 "100k" V 6250 2200 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6180 2200 50  0001 C CNN
 F 3 "" H 6250 2200 50  0000 C CNN
@@ -242,10 +242,10 @@ F 3 "" H 6250 2200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R12
 U 1 1 58B41F07
 P 6250 2500
-F 0 "R?" V 6330 2500 50  0000 C CNN
+F 0 "R12" V 6330 2500 50  0000 C CNN
 F 1 "100k" V 6250 2500 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6180 2500 50  0001 C CNN
 F 3 "" H 6250 2500 50  0000 C CNN
@@ -253,10 +253,10 @@ F 3 "" H 6250 2500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R13
 U 1 1 58B41F53
 P 6250 2800
-F 0 "R?" V 6330 2800 50  0000 C CNN
+F 0 "R13" V 6330 2800 50  0000 C CNN
 F 1 "100k" V 6250 2800 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6180 2800 50  0001 C CNN
 F 3 "" H 6250 2800 50  0000 C CNN
@@ -264,10 +264,10 @@ F 3 "" H 6250 2800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R14
 U 1 1 58B41F9E
 P 6250 3100
-F 0 "R?" V 6330 3100 50  0000 C CNN
+F 0 "R14" V 6330 3100 50  0000 C CNN
 F 1 "100k" V 6250 3100 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6180 3100 50  0001 C CNN
 F 3 "" H 6250 3100 50  0000 C CNN
@@ -275,10 +275,10 @@ F 3 "" H 6250 3100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R15
 U 1 1 58B41FEC
 P 6250 3400
-F 0 "R?" V 6330 3400 50  0000 C CNN
+F 0 "R15" V 6330 3400 50  0000 C CNN
 F 1 "100k" V 6250 3400 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6180 3400 50  0001 C CNN
 F 3 "" H 6250 3400 50  0000 C CNN
@@ -286,10 +286,10 @@ F 3 "" H 6250 3400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R16
 U 1 1 58B4203D
 P 6250 3700
-F 0 "R?" V 6330 3700 50  0000 C CNN
+F 0 "R16" V 6330 3700 50  0000 C CNN
 F 1 "100k" V 6250 3700 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6180 3700 50  0001 C CNN
 F 3 "" H 6250 3700 50  0000 C CNN
@@ -297,10 +297,10 @@ F 3 "" H 6250 3700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R17
 U 1 1 58B42091
 P 6250 4000
-F 0 "R?" V 6330 4000 50  0000 C CNN
+F 0 "R17" V 6330 4000 50  0000 C CNN
 F 1 "100k" V 6250 4000 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6180 4000 50  0001 C CNN
 F 3 "" H 6250 4000 50  0000 C CNN
@@ -309,107 +309,107 @@ F 3 "" H 6250 4000 50  0000 C CNN
 $EndComp
 Text GLabel 6200 1650 2    60   Output ~ 0
 VBATT
-Text GLabel 8400 950  0    39   Input ~ 0
+Text GLabel 7900 900  0    39   Input ~ 0
 D1
-Text GLabel 8400 1050 0    39   Input ~ 0
+Text GLabel 7900 1000 0    39   Input ~ 0
 a
-Text GLabel 8400 1150 0    39   Input ~ 0
+Text GLabel 7900 1100 0    39   Input ~ 0
 b
-Text GLabel 8400 1250 0    39   Input ~ 0
+Text GLabel 7900 1200 0    39   Input ~ 0
 c
-Text GLabel 8400 1350 0    39   Input ~ 0
+Text GLabel 7900 1300 0    39   Input ~ 0
 d
-Text GLabel 8400 1450 0    39   Input ~ 0
+Text GLabel 7900 1400 0    39   Input ~ 0
 e
-Text GLabel 8400 1550 0    39   Input ~ 0
+Text GLabel 7900 1500 0    39   Input ~ 0
 f
-Text GLabel 8400 1650 0    39   Input ~ 0
+Text GLabel 7900 1600 0    39   Input ~ 0
 g
-Text GLabel 8400 1750 0    39   Input ~ 0
+Text GLabel 7900 1700 0    39   Input ~ 0
 dp
-Text GLabel 10100 950  2    39   Input ~ 0
+Text GLabel 9600 900  2    39   Input ~ 0
 D2
-Text GLabel 10100 1050 2    39   Input ~ 0
+Text GLabel 9600 1000 2    39   Input ~ 0
 a
-Text GLabel 10100 1150 2    39   Input ~ 0
+Text GLabel 9600 1100 2    39   Input ~ 0
 b
-Text GLabel 10100 1250 2    39   Input ~ 0
+Text GLabel 9600 1200 2    39   Input ~ 0
 c
-Text GLabel 10100 1350 2    39   Input ~ 0
+Text GLabel 9600 1300 2    39   Input ~ 0
 d
-Text GLabel 10100 1450 2    39   Input ~ 0
+Text GLabel 9600 1400 2    39   Input ~ 0
 e
-Text GLabel 10100 1550 2    39   Input ~ 0
+Text GLabel 9600 1500 2    39   Input ~ 0
 f
-Text GLabel 10100 1650 2    39   Input ~ 0
+Text GLabel 9600 1600 2    39   Input ~ 0
 g
-Text GLabel 10100 1750 2    39   Input ~ 0
+Text GLabel 9600 1700 2    39   Input ~ 0
 dp
 $Comp
-L Q_NPN_EBC Q?
+L Q_NPN_EBC Q1
 U 1 1 58B44270
-P 8550 2350
-F 0 "Q?" H 8850 2400 50  0000 R CNN
-F 1 "Q_NPN_EBC" H 9150 2300 50  0000 R CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 8750 2450 50  0001 C CNN
-F 3 "PN2222ABU" H 8950 2200 50  0000 C CNN
-	1    8550 2350
+P 8050 2300
+F 0 "Q1" H 8350 2350 50  0000 R CNN
+F 1 "Q_NPN_EBC" H 8650 2250 50  0000 R CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 8250 2400 50  0001 C CNN
+F 3 "PN2222ABU" H 8450 2150 50  0000 C CNN
+	1    8050 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NPN_EBC Q?
+L Q_NPN_EBC Q2
 U 1 1 58B445E3
-P 10300 2350
-F 0 "Q?" H 10600 2400 50  0000 R CNN
-F 1 "Q_NPN_EBC" H 10900 2300 50  0000 R CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 10500 2450 50  0001 C CNN
-F 3 "PN2222ABU" H 10700 2200 50  0000 C CNN
-	1    10300 2350
+P 9800 2300
+F 0 "Q2" H 10100 2350 50  0000 R CNN
+F 1 "Q_NPN_EBC" H 10400 2250 50  0000 R CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 10000 2400 50  0001 C CNN
+F 3 "PN2222ABU" H 10200 2150 50  0000 C CNN
+	1    9800 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 8050 2350 0    39   Input ~ 0
+Text GLabel 7550 2300 0    39   Input ~ 0
 TENS
-Text GLabel 9800 2350 0    39   Input ~ 0
+Text GLabel 9300 2300 0    39   Input ~ 0
 ONES
 $Comp
-L R R?
+L R R18
 U 1 1 58B44A98
-P 8200 2350
-F 0 "R?" V 8280 2350 50  0000 C CNN
-F 1 "1.2k" V 8200 2350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8130 2350 50  0001 C CNN
-F 3 "" H 8200 2350 50  0000 C CNN
-	1    8200 2350
+P 7700 2300
+F 0 "R18" V 7780 2300 50  0000 C CNN
+F 1 "1.2k" V 7700 2300 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7630 2300 50  0001 C CNN
+F 3 "" H 7700 2300 50  0000 C CNN
+	1    7700 2300
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R19
 U 1 1 58B44C0A
-P 9950 2350
-F 0 "R?" V 10030 2350 50  0000 C CNN
-F 1 "1.2k" V 9950 2350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 9880 2350 50  0001 C CNN
-F 3 "" H 9950 2350 50  0000 C CNN
-	1    9950 2350
+P 9450 2300
+F 0 "R19" V 9530 2300 50  0000 C CNN
+F 1 "1.2k" V 9450 2300 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 9380 2300 50  0001 C CNN
+F 3 "" H 9450 2300 50  0000 C CNN
+	1    9450 2300
 	0    1    1    0   
 $EndComp
-Text GLabel 8650 2150 0    39   Input ~ 0
+Text GLabel 8150 2100 0    39   Input ~ 0
 D1
-Text GLabel 10400 2150 0    39   Input ~ 0
+Text GLabel 9900 2100 0    39   Input ~ 0
 D2
-Text GLabel 8650 2550 0    60   Input ~ 0
+Text GLabel 8150 2500 0    60   Input ~ 0
 GND
-Text GLabel 10400 2550 0    60   Input ~ 0
+Text GLabel 9900 2500 0    60   Input ~ 0
 GND
 Text GLabel 1850 2700 0    60   Output ~ 0
 VBATT
 Text GLabel 1850 3000 0    60   Input ~ 0
 GND
 $Comp
-L C C?
+L C C1
 U 1 1 58B45C18
 P 1900 2850
-F 0 "C?" H 1925 2950 50  0000 L CNN
+F 0 "C1" H 1925 2950 50  0000 L CNN
 F 1 "0.1uF" H 1925 2750 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1938 2700 50  0001 C CNN
 F 3 "" H 1900 2850 50  0000 C CNN
@@ -421,10 +421,10 @@ VBATT
 Text GLabel 5250 2250 0    60   Input ~ 0
 GND
 $Comp
-L C C?
+L C C2
 U 1 1 58B463DD
 P 5300 2100
-F 0 "C?" H 5325 2200 50  0000 L CNN
+F 0 "C2" H 5325 2200 50  0000 L CNN
 F 1 "0.1uF" H 5325 2000 50  0000 L CNN
 F 2 "Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5338 1950 50  0001 C CNN
 F 3 "" H 5300 2100 50  0000 C CNN
@@ -473,10 +473,10 @@ dp
 Text GLabel 4500 1700 2    39   Input ~ 0
 f
 $Comp
-L R R?
+L R R1
 U 1 1 58B495E0
 P 4350 1200
-F 0 "R?" V 4400 1050 50  0000 C CNN
+F 0 "R1" V 4400 1050 50  0000 C CNN
 F 1 "100" V 4350 1200 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 1200 50  0001 C CNN
 F 3 "" H 4350 1200 50  0000 C CNN
@@ -484,10 +484,10 @@ F 3 "" H 4350 1200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R2
 U 1 1 58B49E08
 P 4350 1300
-F 0 "R?" V 4400 1150 50  0000 C CNN
+F 0 "R2" V 4400 1150 50  0000 C CNN
 F 1 "100" V 4350 1300 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 1300 50  0001 C CNN
 F 3 "" H 4350 1300 50  0000 C CNN
@@ -495,10 +495,10 @@ F 3 "" H 4350 1300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R3
 U 1 1 58B49E6F
 P 4350 1400
-F 0 "R?" V 4400 1250 50  0000 C CNN
+F 0 "R3" V 4400 1250 50  0000 C CNN
 F 1 "100" V 4350 1400 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 1400 50  0001 C CNN
 F 3 "" H 4350 1400 50  0000 C CNN
@@ -506,10 +506,10 @@ F 3 "" H 4350 1400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R4
 U 1 1 58B49ED9
 P 4350 1500
-F 0 "R?" V 4400 1350 50  0000 C CNN
+F 0 "R4" V 4400 1350 50  0000 C CNN
 F 1 "100" V 4350 1500 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 1500 50  0001 C CNN
 F 3 "" H 4350 1500 50  0000 C CNN
@@ -517,10 +517,10 @@ F 3 "" H 4350 1500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R5
 U 1 1 58B49F46
 P 4350 1600
-F 0 "R?" V 4400 1450 50  0000 C CNN
+F 0 "R5" V 4400 1450 50  0000 C CNN
 F 1 "100" V 4350 1600 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 1600 50  0001 C CNN
 F 3 "" H 4350 1600 50  0000 C CNN
@@ -528,10 +528,10 @@ F 3 "" H 4350 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R6
 U 1 1 58B49FB6
 P 4350 1700
-F 0 "R?" V 4400 1550 50  0000 C CNN
+F 0 "R6" V 4400 1550 50  0000 C CNN
 F 1 "100" V 4350 1700 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 1700 50  0001 C CNN
 F 3 "" H 4350 1700 50  0000 C CNN
@@ -539,10 +539,10 @@ F 3 "" H 4350 1700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R7
 U 1 1 58B4A029
 P 4350 1800
-F 0 "R?" V 4400 1650 50  0000 C CNN
+F 0 "R7" V 4400 1650 50  0000 C CNN
 F 1 "100" V 4350 1800 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 1800 50  0001 C CNN
 F 3 "" H 4350 1800 50  0000 C CNN
@@ -550,10 +550,10 @@ F 3 "" H 4350 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L R R8
 U 1 1 58B4A09F
 P 4350 1900
-F 0 "R?" V 4400 1750 50  0000 C CNN
+F 0 "R8" V 4400 1750 50  0000 C CNN
 F 1 "100" V 4350 1900 50  0000 C CNN
 F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 1900 50  0001 C CNN
 F 3 "" H 4350 1900 50  0000 C CNN
@@ -748,4 +748,28 @@ Text GLabel 3900 2050 2    39   Input ~ 0
 TENS
 Text GLabel 3900 2150 2    39   Input ~ 0
 ONES
+$Comp
+L R R9
+U 1 1 58BB280A
+P 4350 3400
+F 0 "R9" V 4300 3250 50  0000 C CNN
+F 1 "100" V 4350 3400 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4280 3400 50  0001 C CNN
+F 3 "" H 4350 3400 50  0000 C CNN
+	1    4350 3400
+	0    1    1    0   
+$EndComp
+Text GLabel 4200 3550 2    60   Input ~ 0
+GND
+Wire Wire Line
+	4200 3400 4200 3550
+NoConn ~ 3900 2250
+NoConn ~ 3900 2350
+NoConn ~ 3900 2450
+NoConn ~ 3900 2550
+NoConn ~ 3900 3200
+NoConn ~ 3900 3300
+NoConn ~ 3900 3400
+NoConn ~ 3900 3500
+NoConn ~ 5750 3500
 $EndSCHEMATC
