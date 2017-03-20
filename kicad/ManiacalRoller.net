@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Dan\Documents\MLGITHUB\ManiacalRoller\kicad\ManiacalRoller.sch)
-    (date "3/4/2017 4:23:26 PM")
+    (date "3/20/2017 10:54:52 AM")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -232,7 +232,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 58B4A09F))
     (comp (ref R9)
-      (value 100)
+      (value 100K)
       (footprint Resistors_ThroughHole:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
