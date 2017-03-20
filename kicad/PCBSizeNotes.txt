@@ -1,0 +1,6 @@
+Bat Holder on front: 2 layer board of 2.74x2.80 inches (69.67x71.17mm). $38.40 for three.
+
+Bat Holder on back: 2 layer board of 1.77x2.80 inches (44.86x71.17mm). $24.70 for three.
+-- Has two standoff holes on top, need to increase size to add ones on the bottom, if needed.
+
+Need to figure out standoff sizing, price.
